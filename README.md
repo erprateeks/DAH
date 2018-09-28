@@ -1,2 +1,3 @@
-# DAH
-DAH_POC
+Reload the shell - 
+
+source ~/.bashrc
