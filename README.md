@@ -30,5 +30,15 @@ Install the Scala plugin when prompted
 
 Use defaults for all other options
 
+DA SDK Installation - 
+
+Add da environment variable
+
+nano ~/.profile
+
+bash '/home/prateek/Downloads/da-cli-104-984d2adddf-linux.run'
+
+sudo ln -ns "/home/prateek/.da/bin/da" /usr/local/bin/da
+
 
 
