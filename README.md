@@ -38,6 +38,8 @@ nano ~/.profile
 
 bash '/home/prateek/Downloads/da-cli-104-984d2adddf-linux.run'
 
+84feb51854e31d99fbfd4dd4f6b8d243b6f4adb5
+
 da setup
 
 sudo ln -ns "/home/prateek/.da/bin/da" /usr/local/bin/da
