@@ -1,0 +1,10 @@
+validateTicketPurchase = scenario do
+  issuer <- getParty "Issuer"
+  organizer <- getParty "Organizer"
+  buyer <- getParty "Buyer"
+  cash <- submit issuer do create Cash with issuer;
+owner = buyer; amount = 20.0
+  offer <- submit organizer do create TicketOffer with
+    organizer; buyer; price = 20.0
+  submit buyer do exercise offer Accept with
+  cashId = cash
